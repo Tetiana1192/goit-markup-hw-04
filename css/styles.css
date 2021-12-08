@@ -132,7 +132,23 @@ li {
   text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
-  background-color: var(--header-background);
+}
+.team {
+  min-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/img3.jpg);
+  background-color: #C4C4C4;
+  b
 }
 
 .button {
