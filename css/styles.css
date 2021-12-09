@@ -117,6 +117,22 @@ li {
 .contacts-list .forces.current {
   color: var(--text-accent-color);
 }
+.contacts-item {
+padding: 0px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 10px;
+
+}
+.icon-contacts {
+width: 16px;
+height: 12px;
+
+}
+
+
 
 /*hero*/
 .hero {
@@ -257,7 +273,23 @@ li {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.icon {
+  padding: 0px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F5F4FA;
+height: 120px;
+ 
 
+}
+.icon-feature {
+width: 70px;
+height: 70px;
+
+
+}
 /*section*/
 .section-one {
   padding-top: 94px;
@@ -344,6 +376,23 @@ p {
   line-height: 1.87;
 }
 
+.group {
+padding: 0px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.icon-group {
+width: 20px;
+height: 20px;
+}
+
+.instagram {
+  fill: AFB1B8;
+}
 /*footer*/
 .footer {
   background-color: #2f303a;
